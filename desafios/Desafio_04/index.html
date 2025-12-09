@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- OPTIMIZACIÓN DE CARGA DE FUENTES -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- OPTIMIZACIÓN DE CARGA DE FUENTES -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> <!-- IMPORTACIÓN DE FUENTE ROBOTO CON VARIEDADES -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> <!-- IMPORTACIÓN DE BOOTSTRAP -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> <!-- IMPORTACIÓN DE FONT AWESOME PARA ICONOS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <title>CUPPON</title>
+</head>
+<body>
+  <!-- COMIENZA NAV BAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success"> <!-- AJUSTE DE NAV BAR PARA QUE CONTRASTE EL COLOR DEL TEXTO CON EL FONDO Y DEFINICIÓN DE BG A VERDE-->
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="assets/images/logo-white.png" alt="Logo CUPPON" class="logo-img"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> <!-- AQUI SE AJUSTA EL MARGEN IZQUIERDO DEL CONTENIDO DE LA NAV BAR AUTOMÁTICAMENTE; IGUALMENTE CONDICIONES PARA PANTALLAS PEQUEÑAS Y DESPUES PARA GRANDES -->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>  
+  </nav>
+  <!-- FINALIZA NAV BAR -->
+  <!-- COMIENZA GRID DE ELEMENTOS -->
+  <div class="container mt-4 mb-4">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="card">  
+          <img src="assets/images/Camaa.png" alt="Imagen de una Cama" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Plumón Coral Fleece estampado</h5>
+            <p class="card-text">Plumones Manolito</p>
+            <p class="text-muted"><i class="fa-solid fa-map-location-dot"></i> Avenida Apoquindo 4500, Las Condes</p>
+            <hr>
+            <div class="d-flex justify-content-end gap-3">
+              <p class="text-muted"><del>$89.990</del></p>
+              <p class="text-success">$34.990</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="card">
+          <img src="assets/images/Plato de Entrada.png" alt="Imagen de un Plato de Entrada" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Ceviche de Entrada</h5>
+            <p class="card-text">Casona Donde Calamardo</p>
+            <p class="text-muted"><i class="fa-solid fa-map-location-dot"></i> Calle Prat 875, Valparaíso</p>
+            <hr>
+            <div class="d-flex justify-content-end gap-3">
+              <p class="text-muted"><del>$16.990</del></p>
+              <p class="text-success">$7.990</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="card">
+          <img src="assets/images/Sala Dental.png" alt="Imagen de una Sala Dental" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Evaluación Dental Completa</h5>
+            <p class="card-text">Clinica Dientes Limpiecitos</p>
+            <p class="text-muted"><i class="fa-solid fa-map-location-dot"></i> Calle Los Aromos 129, Puente Alto</p>
+            <hr>
+            <div class="d-flex justify-content-end gap-3">
+              <p class="text-muted"><del>$69.990</del></p>
+              <p class="text-success">$26.990</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="card">
+          <img src="assets/images/Colacion.png" alt="Imagen de una Colación" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Colación Para 1 / Arroz + Pollo</h5>
+            <p class="card-text">El Pimentón Seco</p>
+            <p class="text-muted"><i class="fa-solid fa-map-location-dot"></i> Bernardo O'Higgins 310, Concepción</p>
+            <hr>
+            <div class="d-flex justify-content-end gap-3">
+              <p class="text-muted"><del>$12.990</del></p>
+              <p class="text-success">$6.990</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="card">
+          <img src="assets/images/Centro de Eventos.png" alt="Imagen de un Centro de Eventos" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Promoción 2 Entradas + VIP Pass</h5>
+            <p class="card-text">Divertilandia</p>
+            <p class="text-muted"><i class="fa-solid fa-map-location-dot"></i> General Velásquez 2030, Temuco</p>
+            <hr>
+            <div class="d-flex justify-content-end gap-3">
+              <p class="text-muted"><del>$49.990</del></p>
+              <p class="text-success">$29.990</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="card">
+          <img src="assets/images/Paisaje San Pedro Atacama.png" alt="Imagen de un Paisaje de San Pedro de Atacama" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Tour Completo San Pedro de Atacama</h5>
+            <p class="card-text">Paseos Don Trujillo</p>
+            <p class="text-muted"><i class="fa-solid fa-map-location-dot"></i> Calle Toconao 470, San Pedro de Atacama</p>
+            <hr>
+            <div class="d-flex justify-content-end gap-3">
+              <p class="text-muted"><del>$119.990</del></p>
+              <p class="text-success">$59.990</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- FINALIZA GRID DE ELEMENTOS -->
+  <!-- COMIENZA SECTION NEWSLETTER -->
+  <div class="bg-success text-white p-4">
+    <div class="container text-center">
+      <h2 class="mb-3 fs-4">¡Suscribete para recibir nuestros descuentos en tu correo!</h2>
+      <form class="d-flex flex-column align-items-center gap-3">
+        <input type="name" class="form-control w-50" placeholder="Nombre" required>
+        <input type="email" class="form-control w-50" placeholder="Correo Electrónico" required>
+        <button type="submit" class="btn btn-dark bg-white text-dark">Suscribirse</button>
+      </form>
+    </div>
+  </div>
+  <!-- FINALIZA SECTION NEWSLETTER -->
+</body>
+<footer class="text-center p-3">
+  <img src="assets/images/logo-black.png" alt="Logo CUPPON" class="logo-img">
+  <p>© 2018 Cuppon Latam .Todos los derechos reservados.</p>
+</footer>
+</html>
